@@ -1,0 +1,26 @@
+# CREDIT: https://github.com/shren207/nextjs-docker-compose
+# Dockerfile
+FROM node:18-buster
+
+
+# FROM ubuntu:18.04
+
+# # Set DEBIAN_FRONTEND to noninteractive
+# ENV DEBIAN_FRONTEND noninteractive
+
+# # Set default user and workdir
+# USER root
+# WORKDIR /
+
+# RUN apt-get update && \
+#   apt-get install -y zsh sudo curl gpgv
+
+# RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
+# RUN apt-get -qqy install nodejs
+
+# RUN mkdir -p /home/node
+# RUN chown 1000:1000 -R /home/node
+# RUN useradd node:node
+# user 1000:1000
+
+# CMD ["/bin/bash"]
